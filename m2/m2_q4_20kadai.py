@@ -1,11 +1,8 @@
-num = 3
-list_a = []
+list_b = []
 
-while num < 5:
-    for i in range(num, 10, 3):
-        i -= 6
-        list_a.append(i)
-    num += 1
+# 5 から 25 までの奇数 → range(5, 26, 2)
+for i in range(5, 26, 2):
+    list_b.append(i)
 
-print(sum(list_a))
+print(sum(list_b))
 
