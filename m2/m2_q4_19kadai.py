@@ -1,5 +1,11 @@
-a = 6 
-b = pow(a, 3)
-c = divmod(b, a)
-print(c)
+x = int(input("x = "))
+
+# 2乗と3乗を計算
+square = x ** 2
+cube = x ** 3
+
+# 結果を出力
+print(square)
+print(cube)
+
 
